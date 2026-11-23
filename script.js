@@ -1,4 +1,4 @@
-    <script>
+
         const AudioContext = window.AudioContext || window.webkitAudioContext;
         let audioCtx;
 
@@ -105,4 +105,3 @@
             this.style.transform = `rotate(${sustainTime > 1.2 ? 60 : -60}deg)`;
             display.textContent = `SUSTAIN: ${sustainTime > 1.2 ? 'LONG' : 'NORMAL'}`;
         });
-    </script>
